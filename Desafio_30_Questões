@@ -1,0 +1,128 @@
+-- CREATE TABLE aluno(
+-- 	idaluno serial,
+-- 	nome varchar(10),
+-- 	genero char(1),
+-- 	idade int,
+-- 	cidade varchar(20),
+-- 	Primary Key(idaluno)
+-- );
+
+-- INSERT INTO aluno (nome, idade, genero, cidade)
+-- VALUES
+	
+-- 	('ANDERSON',17,'M','PALHOÇA'),
+-- 	('CESAR',18,'M','SÃO JOSÉ'),
+-- 	('DANIEL',21,'M','TUBARÃO'),
+-- 	('DIEGO',17,'M','TUBARÃO'),
+-- 	('EDUARDO',18,'M','PALHOÇA'),
+-- 	('MARIA',18,'F','SÃO JOSÉ'),
+-- 	('CARLOS',22,'M','BLUMENAU'),
+-- 	('JOSÉ',18,'M', NULL),
+-- 	('MARISA',25,'F','BLUMENAU'),
+-- 	('AMANDA',17,'F','SÃO JOSÉ');
+
+-- -- Select * from aluno
+-- 1.
+-- -- Select * from aluno
+-- -- Where "genero" = 'M';
+-- 2.
+-- -- Select * from aluno
+-- -- Where "idade" = 19;
+-- 3.
+-- -- Select * from aluno
+-- -- Where "nome" like 'D%';
+-- 4.
+-- -- Select * from aluno
+-- -- Where "idade" between '20' and '22';
+-- 5.
+-- -- Select * from aluno 
+-- -- Where cidade isnull;
+-- 6.
+-- -- Select * from aluno
+-- -- Where "cidade" = 'BLUMENAU';
+-- 7.
+-- -- Select * from aluno
+-- -- Where "idade" != 18;
+-- 8.
+-- -- Select * from aluno
+-- -- Where "nome" like ('%RI%'); 
+-- 9.
+-- -- Select * from aluno
+-- -- Where "cidade"='SÃO JOSÉ' and "genero"='M' and "idade" < 20;
+-- 10.
+-- -- Select * from aluno
+-- -- Where ("idade" > 20 and genero = 'F') or ("idade" > 17 and genero = 'M');
+-- 11.
+-- -- Select * from aluno
+-- -- Where "nome" like ('%A%') and "nome" like('%R%');
+-- 12.
+-- -- Select * from aluno
+-- -- Where "genero" = 'F';
+-- 13.
+-- -- Select * from aluno
+-- -- Where "cidade" = 'BLUMENAU';
+-- 14.
+-- -- Select * from aluno
+-- -- Where "idade" > 18;
+-- 15.
+-- -- Select * from aluno
+-- -- Where "idade"  BETWEEN 15 and 18 and "cidade" != 'PALHOÇA';
+-- 16.
+-- -- Select * from aluno
+-- -- Where "cidade" != 'null'
+-- 17.
+-- -- Select* from aluno
+-- -- Where "idade" = 18 and "cidade" = 'PALHOÇA' or "idade" = 17 and cidade = 'SÃO JOSÉ';
+-- 18.
+-- -- Select * from aluno
+-- -- Where "genero" = 'M' and "cidade" = 'TUBARÃO' and "idade" BETWEEN 18 and 25;
+-- 19.
+-- -- Select nome, idade FROM aluno
+-- -- Order by "idade" ASC
+-- 20.
+-- -- Select idaluno, nome from aluno
+-- -- Order by "nome" DESC
+-- 21. 
+-- -- Select * from aluno
+-- -- Order by "idade" DESC, "nome" ASC
+-- 22.
+-- -- Select * from aluno
+-- -- Order by "genero", "nome" ASC
+-- 23.
+-- -- Update aluno
+-- -- Set "idade" =20
+-- -- Where "idaluno" = 10
+
+-- Select * from aluno
+
+-- 24.
+-- -- Update aluno
+-- -- Set "idade" = 21
+-- -- Where "nome" = 'Tadeu' or "nome" = 'Marisa' or "nome" = 'Cesar'
+-- 25.
+-- -- Update aluno
+-- -- Set "nome" = 'LUIZ', "idade" = 22, "genero" = 'M', "cidade" = 'TIJUCAS', id = '12'
+-- -- Where "idaluno" = 8
+-- 26. 
+-- -- Update aluno
+-- -- Set "cidade" = null
+-- -- Where "idade" > 24
+-- 27. 
+-- -- Delete from aluno
+-- -- Where "cidade" = null or "cidade" = NULL or "cidade" = '' 
+-- 28. 
+-- -- Delete from aluno
+-- -- Where "cidade" = 'TUBARÃO' and "idade" > 15 and "genero" = 'M'
+-- 29.
+-- -- Delete from aluno 
+-- -- Where "nome" ='TADEU' or "nome" = 'ALICE' or "nome" = 'MARIA' and "idade" > 16
+-- 30.
+-- -- Delete from aluno
+-- -- Where "idade" < 18 and "genero" = 'M' or "idade" < 21 and "genero" = 'F'
+
+-- -- Select * from aluno
+
+
+
+
+
